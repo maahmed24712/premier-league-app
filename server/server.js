@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: ["mongodb://127.0.0.1:27017/PremierLeaguePlayers"],
+  origin: ["https://premier-league-c21zrge84-maahmed24712.vercel.app"],
   methods: ["POST", "GET"],
   credentials: true
 }));
