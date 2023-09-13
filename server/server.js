@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: ["https://premier-league-iizazwplt-maahmed24712.vercel.app"],
+  origin: ["https://premier-league-nhq5x9cvk-maahmed24712.vercel.app"],
   methods: ["POST", "GET"],
   credentials: true
 }));
