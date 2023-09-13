@@ -1,38 +1,185 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+    font-family: 'Kanit', sans-serif;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./images/celebration2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  font-family: Arial, sans-serif;
+  color: #fff;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Logo-icon h1{
+  font-size: 3rem;
+}
+.navbar {
+    background-color: #3d195b;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin: auto;
+    width: 100%;
   }
+  
+  .navbar img {
+    width: 150px;
+    height: auto;
+    position: relative;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  .search i {
+    size: 2rem;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 6px;
+    justify-content: flex-end;
+  }
+  
+  .evenly {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .search-input{
+    outline: none;
+    font-size: 0.9rem;
+    padding: 2px;
+    margin-left: 3px;
+    padding:0;
+  }
+  .icon-size{
+    font-size: 1.6rem;
+  }
+
+.button-text {
+  display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.icon-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
   color: white;
+  outline: none;
+  padding: 0;
+  margin-right: 50px;
+  font-size: inherit;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.icon-button:hover .button-text {
+  display: inline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-button:hover .icon-size {
+  display: none; 
 }
+
+.search-bar button{
+  border: none;
+  background-color: #3d195b;
+  color: #fff;
+  cursor: pointer;
+}
+  .content{
+    /* border: 1px solid white; */
+    margin-top: 150px;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    text-align: center;
+  }
+
+  .content button{
+    font-size: 1.5rem;
+    background-color: rgba(0,0,0,0.1);
+    color: yellow;
+    border-color: yellow;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .content button:hover{
+    background-color: yellow;
+    color: black;
+  }
+
+  @media(max-width:800px){
+    .icon-size{
+      font-size: 1.2rem;
+    }
+    .search-bar input{
+      /* height: 20px; */
+      padding: 1px;
+    }
+    .search{
+      width:60%
+    }
+  }
+  @media(max-width:700px){
+    .search{
+      width: 60%;
+    }
+    .navbar{
+      justify-content: space-evenly;
+    }
+  }
+
+  @media(max-width:550px){
+    .icon-size{
+      font-size: 1rem;
+    }
+    .navbar h1{
+      font-size: 20px;
+    }
+    .search-input{
+      /* height: 10px; */
+      font-size: 10px;
+      width: 80%;
+      padding: 0;
+    }
+  }
+
+  @media(max-width:480px){
+    .icon-size{
+      font-size: 0.7rem;
+    }
+    .search-bar{
+      padding: 5px;
+    }
+  }

@@ -1,0 +1,3279 @@
+{
+    "teams": [
+			{
+  "_id": "team_id_arsenal",
+  "name": "Arsenal",
+  "players": [
+    {
+      "name": "Bukayo Saka",
+      "country": "England",
+      "position": "D(L),M(CLR)",
+      "GA": { "goals": 2, "assists": 1 },
+      "matchRating": 7.68,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Declan Rice",
+      "country": "England",
+      "position": "D(C),DMC",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 7.27,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Thomas Partey",
+      "country": "Ghana",
+      "position": "D(R),M(CR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.20,
+      "aerialsWon": 0.7
+    },
+    {
+      "name": "Fábio Vieira",
+      "country": "Portugal",
+      "position": "AM(CR),FW",
+      "GA": { "goals": 0, "assists": 2 },
+      "matchRating": 7.18,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Gabriel Martinelli",
+      "country": "Brazil",
+      "position": "AM(L),FW",
+      "GA": { "goals": 0, "assists": 2 },
+      "matchRating": 7.17,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Martin Ødegaard",
+      "country": "Norway",
+      "position": "AM(CR)",
+      "GA": { "goals": 2, "assists": 0 },
+      "matchRating": 7.15,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Eddie Nketiah",
+      "country": "England",
+      "position": "FW",
+      "GA": { "goals": 2, "assists": 0 },
+      "matchRating": 7.08,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "William Saliba",
+      "country": "France",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.98,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Gabriel Jesus",
+      "country": "Brazil",
+      "position": "AM(LR),FW",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.74,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Jurriën Timber",
+      "country": "Netherlands",
+      "position": "D(CR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.58,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Ben White",
+      "country": "England",
+      "position": "D(CR),DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.50,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Kai Havertz",
+      "country": "Germany",
+      "position": "M(CR),FW",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.49,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Gabriel Magalhães",
+      "country": "Brazil",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.45,
+      "aerialsWon": 0.7
+    },
+    {
+      "name": "Aaron Ramsdale",
+      "country": "England",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.33,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Leandro Trossard",
+      "country": "Belgium",
+      "position": "M(CLR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.31,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Jakub Kiwior",
+      "country": "Poland",
+      "position": "D(C),DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.22,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Oleksandr Zinchenko",
+      "country": "Ukraine",
+      "position": "D(L),M(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.20,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Jorginho",
+      "country": "Italy",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.07,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Takehiro Tomiyasu",
+      "country": "Japan",
+      "position": "D(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.00,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Reiss Nelson",
+      "country": "England",
+      "position": "M(LR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.00,
+      "aerialsWon": 0
+    }
+  ]
+},
+			{
+  "_id": "team_id_aston_villa",
+  "name": "Aston Villa",
+  "players": [
+    {
+      "name": "Moussa Diaby",
+      "country": "France",
+      "position": "M(CLR),FW",
+      "GA": { "goals": 2, "assists": 1 },
+      "matchRating": 7.20,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Lucas Digne",
+      "country": "France",
+      "position": "D(CL),M(L)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.91,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Matty Cash",
+      "country": "Poland",
+      "position": "D(R),M(CLR)",
+      "GA": { "goals": 2, "assists": 0 },
+      "matchRating": 6.87,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Ollie Watkins",
+      "country": "England",
+      "position": "AM(LR),FW",
+      "GA": { "goals": 0, "assists": 2 },
+      "matchRating": 6.84,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Leon Bailey",
+      "country": "Jamaica",
+      "position": "M(CLR),FW",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 6.83,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "John McGinn",
+      "country": "Scotland",
+      "position": "M(CLR)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.81,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Douglas Luiz",
+      "country": "Brazil",
+      "position": "M(C)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.66,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Emiliano Martínez",
+      "country": "Argentina",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.63,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Boubacar Kamara",
+      "country": "France",
+      "position": "D(CL),DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.55,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Pau Torres",
+      "country": "Spain",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.50,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Diego Carlos",
+      "country": "Brazil",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.42,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Ezri Konsa",
+      "country": "England",
+      "position": "D(CR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.42,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Philippe Coutinho",
+      "country": "Brazil",
+      "position": "M(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.41,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Jhon Durán",
+      "country": "Colombia",
+      "position": "FW",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.40,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Nicolò Zaniolo",
+      "country": "Italy",
+      "position": "AM(CR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.31,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Robin Olsen",
+      "country": "Sweden",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.28,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Tyrone Mings",
+      "country": "England",
+      "position": "D(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.08,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Youri Tielemans",
+      "country": "Belgium",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.07,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Bertrand Traoré",
+      "country": "Burkina Faso",
+      "position": "AM(R),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.96,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Jaden Philogene",
+      "country": "Unknown",
+      "position": "M(LR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.91,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Cameron Archer",
+      "country": "Unknown",
+      "position": "FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.89,
+      "aerialsWon": 1
+    }
+  ]
+},
+			{
+  "_id": "team_id_bournemouth",
+  "name": "Bournemouth",
+  "players": [
+    {
+      "name": "Philip Billing",
+      "country": "Denmark",
+      "position": "M(C),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.91,
+      "aerialsWon": 2.5
+    },
+    {
+      "name": "Neto",
+      "country": "Brazil",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.75,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Dominic Solanke",
+      "country": "England",
+      "position": "FW",
+      "GA": { "goals": 2, "assists": 1 },
+      "matchRating": 6.67,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Milos Kerkez",
+      "country": "Hungary",
+      "position": "D(L),M(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.60,
+      "aerialsWon": 2.3
+    },
+    {
+      "name": "Illia Zabarnyi",
+      "country": "Ukraine",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.60,
+      "aerialsWon": 3
+    },
+    {
+      "name": "Ryan Christie",
+      "country": "Scotland",
+      "position": "M(CLR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.59,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Marcus Tavernier",
+      "country": "England",
+      "position": "M(CLR)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.58,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Max Aarons",
+      "country": "England",
+      "position": "D(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.51,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Antoine Semenyo",
+      "country": "Ghana",
+      "position": "AM(LR),FW",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.48,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "David Brooks",
+      "country": "Wales",
+      "position": "AM(CR)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.43,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Lewis Cook",
+      "country": "England",
+      "position": "M(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.41,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Hamed Traorè",
+      "country": "Cote D’Ivoire",
+      "position": "AM(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.36,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Marcos Senesi",
+      "country": "Argentina",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.34,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Joe Rothwell",
+      "country": "England",
+      "position": "M(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.30,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Justin Kluivert",
+      "country": "Netherlands",
+      "position": "AM(LR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.19,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "James Hill",
+      "country": "Unknown",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.17,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Kieffer Moore",
+      "country": "Wales",
+      "position": "FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.07,
+      "aerialsWon": 0.7
+    },
+    {
+      "name": "Lloyd Kelly",
+      "country": "England",
+      "position": "D(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.04,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Jaidon Anthony",
+      "country": "Unknown",
+      "position": "AM(LR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.03,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Chris Mepham",
+      "country": "Wales",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.02,
+      "aerialsWon": 1
+    }
+  ]
+},
+			{
+  "_id": "team_id_brentford",
+  "name": "Brentford",
+  "players": [
+    {
+      "name": "Bryan Mbeumo",
+      "country": "Cameroon",
+      "position": "AM(LR),FW",
+      "GA": { "goals": 4, "assists": 0 },
+      "matchRating": 7.29,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Yoane Wissa",
+      "country": "DR Congo",
+      "position": "AM(L),FW",
+      "GA": { "goals": 2, "assists": 0 },
+      "matchRating": 7.27,
+      "aerialsWon": 1.8
+    },
+    {
+      "name": "Ethan Pinnock",
+      "country": "Jamaica",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.24,
+      "aerialsWon": 4.8
+    },
+    {
+      "name": "Mathias Jensen",
+      "country": "Denmark",
+      "position": "M(C)",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 7.20,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Christian Nørgaard",
+      "country": "Denmark",
+      "position": "D(C),DMC",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.90,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Nathan Collins",
+      "country": "Ireland",
+      "position": "D(CR)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.86,
+      "aerialsWon": 1.8
+    },
+    {
+      "name": "Mark Flekken",
+      "country": "Netherlands",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.84,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Rico Henry",
+      "country": "England",
+      "position": "D(L),M(L)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.75,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Kevin Schade",
+      "country": "Germany",
+      "position": "AM(LR)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.67,
+      "aerialsWon": 2.8
+    },
+    {
+      "name": "Aaron Hickey",
+      "country": "Scotland",
+      "position": "D(LR),M(LR)",
+      "GA": { "goals": 0, "assists": 2 },
+      "matchRating": 6.57,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Vitaly Janelt",
+      "country": "Germany",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.53,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Zanka",
+      "country": "Denmark",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.48,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Kristoffer Ajer",
+      "country": "Norway",
+      "position": "D(CR),DMC",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.45,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Frank Onyeka",
+      "country": "Nigeria",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.43,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Ben Mee",
+      "country": "England",
+      "position": "D(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.23,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Mikkel Damsgaard",
+      "country": "Denmark",
+      "position": "AM(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.20,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Michael Olakigbe",
+      "country": "England",
+      "position": "Midfielder",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.17,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Keane Lewis-Potter",
+      "country": "England",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.15,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Mads Roerslev",
+      "country": "Denmark",
+      "position": "D(R),M(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.14,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Shandon Baptiste",
+      "country": "Grenada",
+      "position": "AM(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.05,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Josh Dasilva",
+      "country": "England",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.01,
+      "aerialsWon": 0
+    }
+  ]
+},
+			{
+  "_id": "team_id_brighton",
+  "name": "Brighton",
+  "players": [
+    {
+      "name": "Solly March",
+      "country": "England",
+      "position": "M(CLR)",
+      "GA": { "goals": 3, "assists": 0 },
+      "matchRating": 7.81,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Pascal Groß",
+      "country": "Germany",
+      "position": "D(R),M(CR),FW",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 7.68,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Kaoru Mitoma",
+      "country": "Japan",
+      "position": "M(L)",
+      "GA": { "goals": 1, "assists": 3 },
+      "matchRating": 7.50,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Evan Ferguson",
+      "country": "Ireland",
+      "position": "FW",
+      "GA": { "goals": 4, "assists": 0 },
+      "matchRating": 7.42,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Julio Enciso",
+      "country": "Paraguay",
+      "position": "AM(C)",
+      "GA": { "goals": 0, "assists": 2 },
+      "matchRating": 7.35,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Pervis Estupiñán",
+      "country": "Ecuador",
+      "position": "D(L)",
+      "GA": { "goals": 1, "assists": 2 },
+      "matchRating": 7.22,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Jan Paul van Hecke",
+      "country": "Netherlands",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.11,
+      "aerialsWon": 3.5
+    },
+    {
+      "name": "João Pedro",
+      "country": "Brazil",
+      "position": "AM(CL),FW",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 6.85,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Jason Steele",
+      "country": "England",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.81,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Danny Welbeck",
+      "country": "England",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.75,
+      "aerialsWon": 0.7
+    },
+    {
+      "name": "Billy Gilmour",
+      "country": "Scotland",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.61,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Bart Verbruggen",
+      "country": "Netherlands",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.52,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Lewis Dunk",
+      "country": "England",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.50,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Simon Adingra",
+      "country": "Cote D’Ivoire",
+      "position": "M(L),FW",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.49,
+      "aerialsWon": 0
+    },
+    {
+      "name": "James Milner",
+      "country": "England",
+      "position": "D(LR),M(CLR)",
+      "GA": { "goals": 0, "assists": 2 },
+      "matchRating": 6.49,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Joël Veltman",
+      "country": "Netherlands",
+      "position": "D(CR),M(R)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.32,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Mahmoud Dahoud",
+      "country": "Germany",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.28,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Adam Webster",
+      "country": "England",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.13,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Tariq Lamptey",
+      "country": "Ghana",
+      "position": "D(R),M(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.05,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Adam Lallana",
+      "country": "England",
+      "position": "M(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.04,
+      "aerialsWon": 1
+    }
+  ]
+},
+			{
+  "_id": "team_id_burnley",
+  "name": "Burnley",
+  "players": [
+    {
+      "name": "Jordan Beyer",
+      "country": "Germany",
+      "position": "D(CR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.71,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Lyle Foster",
+      "country": "South Africa",
+      "position": "FW",
+      "GA": { "goals": 2, "assists": 0 },
+      "matchRating": 6.69,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Jóhann Gudmundsson",
+      "country": "Iceland",
+      "position": "M(CLR)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.67,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Zeki Amdouni",
+      "country": "Switzerland",
+      "position": "FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.63,
+      "aerialsWon": 0.7
+    },
+    {
+      "name": "Josh Brownhill",
+      "country": "England",
+      "position": "M(CR)",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 6.50,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Hannes Delcroix",
+      "country": "Belgium",
+      "position": "D(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.49,
+      "aerialsWon": 1.5
+    },
+    {
+      "name": "James Trafford",
+      "country": "England",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.45,
+      "aerialsWon": 0.7
+    },
+    {
+      "name": "Luca Koleosho",
+      "country": "Italy",
+      "position": "Forward",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.30,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Dara O'Shea",
+      "country": "Ireland",
+      "position": "D(CR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.19,
+      "aerialsWon": 2.3
+    },
+    {
+      "name": "Josh Cullen",
+      "country": "Ireland",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.19,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Jacob Bruun Larsen",
+      "country": "Denmark",
+      "position": "AM(CL),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.12,
+      "aerialsWon": 0.7
+    },
+    {
+      "name": "Nathan Redmond",
+      "country": "England",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.07,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Aaron Ramsey",
+      "country": "England",
+      "position": "AM(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.06,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Jack Cork",
+      "country": "England",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.05,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Sander Berge",
+      "country": "Norway",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.00,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Benson Manuel",
+      "country": "Belgium",
+      "position": "AM(LR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.95,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Vitinho",
+      "country": "Brazil",
+      "position": "D(LR),M(LR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.83,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Jay Rodríguez",
+      "country": "England",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.79,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Connor Roberts",
+      "country": "Wales",
+      "position": "D(LR),M(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.74,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Ameen Al Dakhil",
+      "country": "Belgium",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.63,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Anass Zaroury",
+      "country": "Morocco",
+      "position": "AM(L),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.18,
+      "aerialsWon": 1
+    }
+  ]
+},
+			{
+  "_id": "team_id_chelsea",
+  "name": "Chelsea",
+  "players": [
+    {
+      "name": "Raheem Sterling",
+      "country": "England",
+      "position": "M(CLR),FW",
+      "GA": { "goals": 2, "assists": 0 },
+      "matchRating": 7.22,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Conor Gallagher",
+      "country": "England",
+      "position": "AM(C)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 7.04,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Thiago Silva",
+      "country": "Brazil",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.01,
+      "aerialsWon": 4.5
+    },
+    {
+      "name": "Enzo Fernández",
+      "country": "Argentina",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 2 },
+      "matchRating": 6.99,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Reece James",
+      "country": "England",
+      "position": "D(CR),DMC,M(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.97,
+      "aerialsWon": 3
+    },
+    {
+      "name": "Axel Disasi",
+      "country": "France",
+      "position": "D(C)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.93,
+      "aerialsWon": 4.3
+    },
+    {
+      "name": "Malo Gusto",
+      "country": "France",
+      "position": "D(R),M(R)",
+      "GA": { "goals": 0, "assists": 2 },
+      "matchRating": 6.85,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Nicolas Jackson",
+      "country": "Senegal",
+      "position": "FW",
+      "GA": { "goals": 1, "assists": 3 },
+      "matchRating": 6.82,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Ben Chilwell",
+      "country": "England",
+      "position": "D(L),M(L)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.80,
+      "aerialsWon": 1.8
+    },
+    {
+      "name": "Levi Colwill",
+      "country": "England",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.69,
+      "aerialsWon": 2.3
+    },
+    {
+      "name": "Carney Chukwuemeka",
+      "country": "England",
+      "position": "AM(C)",
+      "GA": { "goals": 1, "assists": 2 },
+      "matchRating": 6.55,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Moisés Caicedo",
+      "country": "Ecuador",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.49,
+      "aerialsWon": 1.7
+    },
+    {
+      "name": "Cole Palmer",
+      "country": "England",
+      "position": "AM(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.47,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Robert Sánchez",
+      "country": "Spain",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.39,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Mykhailo Mudryk",
+      "country": "Ukraine",
+      "position": "AM(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.15,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Ian Maatsen",
+      "country": "Netherlands",
+      "position": "D(L),M(CL)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.06,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Lesley Ugochukwu",
+      "country": "France",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.03,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Noni Madueke",
+      "country": "England",
+      "position": "AM(R),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.99,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Mason Burstow",
+      "country": "England",
+      "position": "FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.95,
+      "aerialsWon": 0
+    }
+  ]
+},
+      {
+  "_id": "team_id_crystal_palace",
+  "name": "Crystal Palace",
+  "players": [
+    {
+      "name": "Joachim Andersen",
+      "country": "Denmark",
+      "position": "D(C)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 7.74,
+      "aerialsWon": 3.8
+    },
+    {
+      "name": "Eberechi Eze",
+      "country": "England",
+      "position": "AM(CLR)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 7.61,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Jefferson Lerma",
+      "country": "Colombia",
+      "position": "D(R),DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.26,
+      "aerialsWon": 3.8
+    },
+    {
+      "name": "Odsonne Édouard",
+      "country": "France",
+      "position": "AM(L),FW",
+      "GA": { "goals": 3, "assists": 0 },
+      "matchRating": 7.21,
+      "aerialsWon": 1.5
+    },
+    {
+      "name": "Jordan Ayew",
+      "country": "Ghana",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 0, "assists": 2 },
+      "matchRating": 7.20,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Cheick Doucouré",
+      "country": "Mali",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.77,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Jeffrey Schlupp",
+      "country": "Ghana",
+      "position": "D(L),M(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.74,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Marc Guéhi",
+      "country": "England",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.74,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Tyrick Mitchell",
+      "country": "England",
+      "position": "D(L)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.64,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Joel Ward",
+      "country": "England",
+      "position": "D(CLR),DMC,M(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.61,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Jean-Philippe Mateta",
+      "country": "France",
+      "position": "FW",
+      "GA": { "goals": 0, "assists": 2 },
+      "matchRating": 6.56,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Jesurun Rak-Sakyi",
+      "country": "England",
+      "position": "AM(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.30,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Naouirou Ahamada",
+      "country": "France",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.25,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Sam Johnstone",
+      "country": "England",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.11,
+      "aerialsWon": 0
+    },
+    {
+      "name": "James Tomkins",
+      "country": "England",
+      "position": "D(CR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.00,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Will Hughes",
+      "country": "England",
+      "position": "M(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.00,
+      "aerialsWon": 0
+    }
+  ]
+},
+      {
+  "_id": "team_id_everton",
+  "name": "Everton",
+  "players": [
+    {
+      "name": "Beto",
+      "country": "Portugal",
+      "position": "FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.93,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Jarrad Branthwaite",
+      "country": "England",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.86,
+      "aerialsWon": 4.5
+    },
+    {
+      "name": "Amadou Onana",
+      "country": "Belgium",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.78,
+      "aerialsWon": 3.3
+    },
+    {
+      "name": "Nathan Patterson",
+      "country": "Scotland",
+      "position": "D(R),M(R)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.73,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Abdoulaye Doucouré",
+      "country": "Mali",
+      "position": "M(C)",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 6.61,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Alex Iwobi",
+      "country": "Nigeria",
+      "position": "M(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.55,
+      "aerialsWon": 0
+    },
+    {
+      "name": "James Tarkowski",
+      "country": "England",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.54,
+      "aerialsWon": 1.5
+    },
+    {
+      "name": "James Garner",
+      "country": "England",
+      "position": "M(CR)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.52,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Idrissa Gueye",
+      "country": "Senegal",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.48,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Arnaut Danjuma",
+      "country": "Netherlands",
+      "position": "AM(L),FW",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.41,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Ashley Young",
+      "country": "England",
+      "position": "D(LR),M(LR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.36,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Lewis Dobbin",
+      "country": "England",
+      "position": "AM(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.32,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Jordan Pickford",
+      "country": "England",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.22,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Dwight McNeil",
+      "country": "England",
+      "position": "M(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.01,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Ben Godfrey",
+      "country": "England",
+      "position": "D(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.00,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Thomas Cannon",
+      "country": "Unknown",
+      "position": "FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.00,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Tyler Onyango",
+      "country": "England",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.00,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Neal Maupay",
+      "country": "France",
+      "position": "AM(C),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.99,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Michael Keane",
+      "country": "England",
+      "position": "D(CR)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 5.95,
+      "aerialsWon": 1.7
+    },
+    {
+      "name": "Dominic Calvert-Lewin",
+      "country": "England",
+      "position": "AM(L),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.83,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Youssef Chermiti",
+      "country": "Portugal",
+      "position": "FW",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 5.77,
+      "aerialsWon": 1
+    }
+  ]
+},
+      {
+  "_id": "team_id_fulham",
+  "name": "Fulham",
+  "players": [
+    {
+      "name": "Bernd Leno",
+      "country": "Germany",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.03,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Aleksandar Mitrovic",
+      "country": "Serbia",
+      "position": "FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.95,
+      "aerialsWon": 2
+    },
+    {
+      "name": "João Palhinha",
+      "country": "Portugal",
+      "position": "DMC",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.94,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Raúl Jiménez",
+      "country": "Mexico",
+      "position": "FW",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.66,
+      "aerialsWon": 3
+    },
+    {
+      "name": "Sasa Lukic",
+      "country": "Serbia",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.52,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Kenny Tete",
+      "country": "Netherlands",
+      "position": "D(CR),M(R)",
+      "GA": { "goals": 0, "assists": 2 },
+      "matchRating": 6.50,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Bobby De Cordova-Reid",
+      "country": "Jamaica",
+      "position": "D(R),M(CLR),FW",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 6.37,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Harrison Reed",
+      "country": "England",
+      "position": "D(R),M(CR)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.30,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Antonee Robinson",
+      "country": "United States",
+      "position": "D(L),M(L)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.29,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Tosin Adarabioyo",
+      "country": "England",
+      "position": "D(CR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.28,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Harry Wilson",
+      "country": "Wales",
+      "position": "AM(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.26,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Andreas Pereira",
+      "country": "Brazil",
+      "position": "M(CLR)",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 6.19,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Issa Diop",
+      "country": "France",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.18,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Tom Cairney",
+      "country": "Scotland",
+      "position": "M(CR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.13,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Marek Rodák",
+      "country": "Slovakia",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.00,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Willian",
+      "country": "Brazil",
+      "position": "AM(CLR)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 5.99,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Adama Traoré",
+      "country": "Spain",
+      "position": "M(CLR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.97,
+      "aerialsWon": 0.7
+    },
+    {
+      "name": "Timothy Castagne",
+      "country": "Belgium",
+      "position": "D(CLR),M(LR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.86,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Rodrigo Muniz",
+      "country": "Brazil",
+      "position": "FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.85,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Tim Ream",
+      "country": "United States",
+      "position": "D(CL),DMC",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 5.79,
+      "aerialsWon": 1.7
+    },
+    {
+      "name": "Luke Harris",
+      "country": "Wales",
+      "position": "Midfielder",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.73,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Calvin Bassey",
+      "country": "Nigeria",
+      "position": "D(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.38,
+      "aerialsWon": 0
+    }
+  ]
+},
+      {
+  "_id": "team_id_liverpool",
+  "name": "Liverpool",
+  "players": [
+    {
+      "name": "Mohamed Salah",
+      "country": "Egypt",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 2, "assists": 2 },
+      "matchRating": 7.52,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Alisson Becker",
+      "country": "Brazil",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.30,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Dominik Szoboszlai",
+      "country": "Hungary",
+      "position": "AM(CLR)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 7.25,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Andy Robertson",
+      "country": "Scotland",
+      "position": "D(L),M(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.07,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Luis Díaz",
+      "country": "Colombia",
+      "position": "AM(L)",
+      "GA": { "goals": 2, "assists": 0 },
+      "matchRating": 7.02,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Ibrahima Konaté",
+      "country": "France",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.95,
+      "aerialsWon": 2.5
+    },
+    {
+      "name": "Darwin Núñez",
+      "country": "Uruguay",
+      "position": "AM(CL),FW",
+      "GA": { "goals": 2, "assists": 1 },
+      "matchRating": 6.85,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Diogo Jota",
+      "country": "Portugal",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 6.78,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Trent Alexander-Arnold",
+      "country": "England",
+      "position": "D(R),DMC,M(R)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.73,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Alexis Mac Allister",
+      "country": "Argentina",
+      "position": "M(CL),FW",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.66,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Joe Gomez",
+      "country": "England",
+      "position": "D(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.63,
+      "aerialsWon": 1.7
+    },
+    {
+      "name": "Joël Matip",
+      "country": "Cameroon",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.62,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Virgil van Dijk",
+      "country": "Netherlands",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.59,
+      "aerialsWon": 2.3
+    },
+    {
+      "name": "Curtis Jones",
+      "country": "England",
+      "position": "AM(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.42,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Cody Gakpo",
+      "country": "Netherlands",
+      "position": "AM(CL),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.40,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Jarell Quansah",
+      "country": "England",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.26,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Harvey Elliott",
+      "country": "England",
+      "position": "AM(CR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.19,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Wataru Endo",
+      "country": "Japan",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.17,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Kostas Tsimikas",
+      "country": "Greece",
+      "position": "D(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.08,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Ben Doak",
+      "country": "Scotland",
+      "position": "Forward",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.95,
+      "aerialsWon": 0
+    }
+  ]
+},
+      {
+  "_id": "team_id_luton_town",
+  "name": "Luton Town",
+  "players": [
+    {
+      "name": "Carlton Morris",
+      "country": "England",
+      "position": "AM(CL),FW",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 6.93,
+      "aerialsWon": 6
+    },
+    {
+      "name": "Ross Barkley",
+      "country": "England",
+      "position": "M(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.67,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Mads Andersen",
+      "country": "Denmark",
+      "position": "D(C)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.56,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Thomas Kaminski",
+      "country": "Belgium",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.47,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Ryan Giles",
+      "country": "England",
+      "position": "D(L),M(LR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.40,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Alfie Doughty",
+      "country": "England",
+      "position": "D(L),M(LR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.28,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Amari'i Bell",
+      "country": "Jamaica",
+      "position": "D(CL),M(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.28,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Marvelous Nakamba",
+      "country": "Zimbabwe",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.27,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Elijah Adebayo",
+      "country": "England",
+      "position": "FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.25,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Cauley Woodrow",
+      "country": "England",
+      "position": "AM(C),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.22,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Reece Burke",
+      "country": "England",
+      "position": "D(CR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.13,
+      "aerialsWon": 1.5
+    },
+    {
+      "name": "Tom Lockyer",
+      "country": "Wales",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.12,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Chiedozie Ogbene",
+      "country": "Ireland",
+      "position": "M(CR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.08,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Issa Kaboré",
+      "country": "Burkina Faso",
+      "position": "D(R),M(R)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.03,
+      "aerialsWon": 0.7
+    },
+    {
+      "name": "Tahith Chong",
+      "country": "Netherlands",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.96,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Jacob Brown",
+      "country": "Scotland",
+      "position": "M(LR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.96,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Luke Berry",
+      "country": "England",
+      "position": "AM(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.90,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Pelly Ruddock Mpanzu",
+      "country": "DR Congo",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.75,
+      "aerialsWon": 1
+    }
+  ]
+},
+      {
+  "_id": "team_id_manchester_city",
+  "name": "Manchester City",
+  "players": [
+    {
+      "name": "Erling Haaland",
+      "country": "Norway",
+      "position": "FW",
+      "GA": { "goals": 6, "assists": 1 },
+      "matchRating": 8.06,
+      "aerialsWon": 5
+    },
+    {
+      "name": "Rodri",
+      "country": "Spain",
+      "position": "D(C),DMC",
+      "GA": { "goals": 2, "assists": 1 },
+      "matchRating": 7.95,
+      "aerialsWon": 2.3
+    },
+    {
+      "name": "Julián Álvarez",
+      "country": "Argentina",
+      "position": "AM(CR),FW",
+      "GA": { "goals": 2, "assists": 1 },
+      "matchRating": 7.52,
+      "aerialsWon": 3.5
+    },
+    {
+      "name": "Nathan Aké",
+      "country": "Netherlands",
+      "position": "D(CL),DMC",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 7.44,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Phil Foden",
+      "country": "England",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 0, "assists": 3 },
+      "matchRating": 7.41,
+      "aerialsWon": 1.8
+    },
+    {
+      "name": "Jérémy Doku",
+      "country": "Belgium",
+      "position": "AM(LR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.40,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Jack Grealish",
+      "country": "England",
+      "position": "AM(CL),FW",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 7.37,
+      "aerialsWon": 2.5
+    },
+    {
+      "name": "Manuel Akanji",
+      "country": "Switzerland",
+      "position": "D(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.10,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Rúben Dias",
+      "country": "Portugal",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.06,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Sergio Gómez",
+      "country": "Spain",
+      "position": "D(L)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.96,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Mateo Kovacic",
+      "country": "Croatia",
+      "position": "M(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.93,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Kyle Walker",
+      "country": "England",
+      "position": "D(CR),M(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.84,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Ederson",
+      "country": "Brazil",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.74,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Josko Gvardiol",
+      "country": "Croatia",
+      "position": "D(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.61,
+      "aerialsWon": 1.7
+    },
+    {
+      "name": "Bernardo Silva",
+      "country": "Portugal",
+      "position": "M(CLR),FW",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.52,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Kalvin Phillips",
+      "country": "England",
+      "position": "D(C),DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.42,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Kevin De Bruyne",
+      "country": "Belgium",
+      "position": "M(CLR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.38,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Aymeric Laporte",
+      "country": "France",
+      "position": "D(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.37,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Rico Lewis",
+      "country": "England",
+      "position": "D(R),DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.37,
+      "aerialsWon": 0
+    },
+    {
+      "name": "James McAtee",
+      "country": "England",
+      "position": "AM(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.00,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Oscar Bobb",
+      "country": "Norway",
+      "position": "Midfielder",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.00,
+      "aerialsWon": 0
+    }
+  ]
+},
+      {
+  "_id": "team_id_manchester_united",
+  "name": "Manchester United",
+  "players": [
+    {
+      "name": "Bruno Fernandes",
+      "country": "Portugal",
+      "position": "M(CLR)",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 7.28,
+      "aerialsWon": 3.3
+    },
+    {
+      "name": "Luke Shaw",
+      "country": "England",
+      "position": "D(CL),M(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.18,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Aaron Wan-Bissaka",
+      "country": "England",
+      "position": "D(R),M(R)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 7.09,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Casemiro",
+      "country": "Brazil",
+      "position": "DMC",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.99,
+      "aerialsWon": 2.3
+    },
+    {
+      "name": "Marcus Rashford",
+      "country": "England",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 6.96,
+      "aerialsWon": 3.5
+    },
+    {
+      "name": "Antony",
+      "country": "Brazil",
+      "position": "AM(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.86,
+      "aerialsWon": 2.8
+    },
+    {
+      "name": "Raphaël Varane",
+      "country": "France",
+      "position": "D(C)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.69,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "André Onana",
+      "country": "Cameroon",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.64,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Diogo Dalot",
+      "country": "Portugal",
+      "position": "D(LR),M(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.56,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Christian Eriksen",
+      "country": "Denmark",
+      "position": "M(CLR),FW",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 6.49,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Victor Lindelöf",
+      "country": "Sweden",
+      "position": "D(CR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.31,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Anthony Martial",
+      "country": "France",
+      "position": "AM(LR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.30,
+      "aerialsWon": 0.7
+    },
+    {
+      "name": "Jadon Sancho",
+      "country": "England",
+      "position": "AM(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.25,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Scott McTominay",
+      "country": "Scotland",
+      "position": "D(C),DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.25,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Lisandro Martínez",
+      "country": "Argentina",
+      "position": "D(CL),DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.19,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Facundo Pellistri",
+      "country": "Uruguay",
+      "position": "AM(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.16,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Mason Mount",
+      "country": "England",
+      "position": "M(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.15,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Alejandro Garnacho",
+      "country": "Argentina",
+      "position": "AM(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.13,
+      "aerialsWon": 2.3
+    },
+    {
+      "name": "Jonny Evans",
+      "country": "Northern Ireland",
+      "position": "D(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.04,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Harry Maguire",
+      "country": "England",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.88,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Rasmus Højlund",
+      "country": "Denmark",
+      "position": "FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.85,
+      "aerialsWon": 1
+    }
+  ]
+},
+      {
+  "_id": "team_id_newcastle_united",
+  "name": "Newcastle United",
+  "players": [
+    {
+      "name": "Jacob Murphy",
+      "country": "England",
+      "position": "D(R),M(LR)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 7.32,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Kieran Trippier",
+      "country": "England",
+      "position": "D(LR),M(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.05,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Anthony Gordon",
+      "country": "England",
+      "position": "AM(CLR)",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 7.03,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Alexander Isak",
+      "country": "Sweden",
+      "position": "AM(L),FW",
+      "GA": { "goals": 2, "assists": 0 },
+      "matchRating": 6.79,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Joelinton",
+      "country": "Brazil",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.69,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Sandro Tonali",
+      "country": "Italy",
+      "position": "DMC",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.66,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Sven Botman",
+      "country": "Netherlands",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.56,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Miguel Almirón",
+      "country": "Paraguay",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.53,
+      "aerialsWon": 2.3
+    },
+    {
+      "name": "Bruno Guimarães",
+      "country": "Brazil",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.52,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Callum Wilson",
+      "country": "England",
+      "position": "FW",
+      "GA": { "goals": 2, "assists": 0 },
+      "matchRating": 6.48,
+      "aerialsWon": 1.8
+    },
+    {
+      "name": "Harvey Barnes",
+      "country": "England",
+      "position": "AM(CL)",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 6.45,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Fabian Schär",
+      "country": "Switzerland",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.38,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Sean Longstaff",
+      "country": "England",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.37,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Dan Burn",
+      "country": "England",
+      "position": "D(CL),M(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.33,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Nick Pope",
+      "country": "England",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.29,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Elliot Anderson",
+      "country": "Scotland",
+      "position": "AM(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.12,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Jamaal Lascelles",
+      "country": "England",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.12,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Tino Livramento",
+      "country": "England",
+      "position": "D(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.97,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Matt Targett",
+      "country": "England",
+      "position": "D(L),M(L)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 5.86,
+      "aerialsWon": 0
+    }
+  ]
+},
+      {
+  "_id": "team_id_nottingham_forest",
+  "name": "Nottingham Forest",
+  "players": [
+    {
+      "name": "Willy-Arnaud Boly",
+      "country": "Cote D’Ivoire",
+      "position": "D(C)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 7.31,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Taiwo Awoniyi",
+      "country": "Nigeria",
+      "position": "FW",
+      "GA": { "goals": 3, "assists": 1 },
+      "matchRating": 7.16,
+      "aerialsWon": 1.8
+    },
+    {
+      "name": "Morgan Gibbs-White",
+      "country": "England",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 7.10,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Sèrge Aurier",
+      "country": "Cote D’Ivoire",
+      "position": "D(CLR),M(R)",
+      "GA": { "goals": 0, "assists": 2 },
+      "matchRating": 7.01,
+      "aerialsWon": 3
+    },
+    {
+      "name": "Matt Turner",
+      "country": "United States",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.85,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Neco Williams",
+      "country": "Wales",
+      "position": "D(LR),M(LR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.79,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Anthony Elanga",
+      "country": "Sweden",
+      "position": "AM(LR)",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 6.76,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Scott McKenna",
+      "country": "Scotland",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.75,
+      "aerialsWon": 3.5
+    },
+    {
+      "name": "Ryan Yates",
+      "country": "England",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.69,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Ola Aina",
+      "country": "Nigeria",
+      "position": "D(CLR),M(LR)",
+      "GA": { "goals": 0, "assists": 3 },
+      "matchRating": 6.54,
+      "aerialsWon": 0.7
+    },
+    {
+      "name": "Joe Worrall",
+      "country": "England",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.40,
+      "aerialsWon": 2.5
+    },
+    {
+      "name": "Danilo",
+      "country": "Brazil",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.38,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Brennan Johnson",
+      "country": "England",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.32,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Chris Wood",
+      "country": "New Zealand",
+      "position": "FW",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.31,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Orel Mangala",
+      "country": "Belgium",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.30,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Nuno Tavares",
+      "country": "Portugal",
+      "position": "D(L),M(L)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.24,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Cheikhou Kouyaté",
+      "country": "Senegal",
+      "position": "D(CR),DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.17,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Gonzalo Montiel",
+      "country": "Argentina",
+      "position": "D(CR),M(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.15,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Moussa Niakhaté",
+      "country": "Senegal",
+      "position": "D(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.09,
+      "aerialsWon": 1
+    }
+  ]
+},
+      {
+  "_id": "team_id_sheffield_united",
+  "name": "Sheffield United",
+  "players": [
+    {
+      "name": "Cameron Archer",
+      "country": "England",
+      "position": "FW",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 7.40,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Jayden Bogle",
+      "country": "England",
+      "position": "D(R),M(R)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 7.20,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Wes Foderingham",
+      "country": "England",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.04,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Oliver McBurnie",
+      "country": "Scotland",
+      "position": "AM(CL),FW",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 7.00,
+      "aerialsWon": 1.5
+    },
+    {
+      "name": "Gustavo Hamer",
+      "country": "Netherlands",
+      "position": "D(R),M(C)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.76,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Oliver Norwood",
+      "country": "Northern Ireland",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.64,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Vinicius Souza",
+      "country": "Brazil",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.60,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Anel Ahmedhodzic",
+      "country": "Bosnia & Herzegovina",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.59,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "John Egan",
+      "country": "Ireland",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.57,
+      "aerialsWon": 3
+    },
+    {
+      "name": "George Baldock",
+      "country": "Greece",
+      "position": "D(CR),M(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.55,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Max Lowe",
+      "country": "England",
+      "position": "D(LR),M(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.54,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Yasser Larouci",
+      "country": "France",
+      "position": "D(L),M(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.50,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Chris Basham",
+      "country": "England",
+      "position": "D(CR),M(CR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.36,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Jack Robinson",
+      "country": "England",
+      "position": "D(CL),M(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.25,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Luke Thomas",
+      "country": "England",
+      "position": "D(L),M(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.22,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Ben Osborn",
+      "country": "England",
+      "position": "D(L),M(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.20,
+      "aerialsWon": 0.7
+    },
+    {
+      "name": "Bénie Traoré",
+      "country": "Cote D’Ivoire",
+      "position": "Forward",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.04,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Andre Brooks",
+      "country": "England",
+      "position": "Midfielder",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.03,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Antwoine Hackford",
+      "country": "England",
+      "position": "Forward",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.92,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Anis Ben Slimane",
+      "country": "Tunisia",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.89,
+      "aerialsWon": 0
+    },
+    {
+      "name": "William Osula",
+      "country": "Denmark",
+      "position": "FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.79,
+      "aerialsWon": 1.7
+    }
+  ]
+},
+      {
+  "_id": "team_id_tottenham",
+  "name": "Tottenham Hotspur",
+  "players": [
+    {
+      "name": "James Maddison",
+      "country": "England",
+      "position": "AM(CLR)",
+      "GA": { "goals": 2, "assists": 2 },
+      "matchRating": 8.08,
+      "aerialsWon": 3.3
+    },
+    {
+      "name": "Yves Bissouma",
+      "country": "Mali",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.73,
+      "aerialsWon": 2
+    },
+    {
+      "name": "Son Heung-Min",
+      "country": "South Korea",
+      "position": "M(CLR),FW",
+      "GA": { "goals": 3, "assists": 0 },
+      "matchRating": 7.70,
+      "aerialsWon": 2.5
+    },
+    {
+      "name": "Manor Solomon",
+      "country": "Israel",
+      "position": "AM(CL)",
+      "GA": { "goals": 0, "assists": 2 },
+      "matchRating": 7.61,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Cristian Romero",
+      "country": "Argentina",
+      "position": "D(C)",
+      "GA": { "goals": 2, "assists": 0 },
+      "matchRating": 7.58,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Pedro Porro",
+      "country": "Spain",
+      "position": "D(R),M(R)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 7.40,
+      "aerialsWon": 2.3
+    },
+    {
+      "name": "Destiny Udogie",
+      "country": "Italy",
+      "position": "D(L),M(L)",
+      "GA": { "goals": 0, "assists": 2 },
+      "matchRating": 7.21,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Dejan Kulusevski",
+      "country": "Sweden",
+      "position": "AM(CR),FW",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 7.19,
+      "aerialsWon": 1.8
+    },
+    {
+      "name": "Pape Matar Sarr",
+      "country": "Senegal",
+      "position": "M(C)",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 7.14,
+      "aerialsWon": 2.5
+    },
+    {
+      "name": "Guglielmo Vicario",
+      "country": "Italy",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.11,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Micky van de Ven",
+      "country": "Netherlands",
+      "position": "D(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.01,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Emerson Royal",
+      "country": "Brazil",
+      "position": "D(R),M(R)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.53,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Ivan Perisic",
+      "country": "Croatia",
+      "position": "M(CLR),FW",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.48,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Davinson Sánchez",
+      "country": "Colombia",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.47,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Pierre-Emile Højbjerg",
+      "country": "Denmark",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.30,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Richarlison",
+      "country": "Brazil",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.27,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Ben Davies",
+      "country": "Wales",
+      "position": "D(CL),M(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.19,
+      "aerialsWon": 1.5
+    },
+    {
+      "name": "Giovani Lo Celso",
+      "country": "Argentina",
+      "position": "M(CR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.18,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Oliver Skipp",
+      "country": "England",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.01,
+      "aerialsWon": 0
+    }
+  ]
+},
+      {
+  "_id": "team_id_west_ham",
+  "name": "West Ham United",
+  "players": [
+    {
+      "name": "James Ward-Prowse",
+      "country": "England",
+      "position": "M(CR)",
+      "GA": { "goals": 1, "assists": 3 },
+      "matchRating": 7.70,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Lucas Paquetá",
+      "country": "Brazil",
+      "position": "M(CLR),FW",
+      "GA": { "goals": 1, "assists": 1 },
+      "matchRating": 7.67,
+      "aerialsWon": 1.8
+    },
+    {
+      "name": "Jarrod Bowen",
+      "country": "England",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 3, "assists": 1 },
+      "matchRating": 7.62,
+      "aerialsWon": 3.3
+    },
+    {
+      "name": "Alphonse Areola",
+      "country": "France",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.25,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Kurt Zouma",
+      "country": "France",
+      "position": "D(CR)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 7.24,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Michail Antonio",
+      "country": "Jamaica",
+      "position": "D(R),M(CLR),FW",
+      "GA": { "goals": 2, "assists": 0 },
+      "matchRating": 7.18,
+      "aerialsWon": 1.3
+    },
+    {
+      "name": "Tomás Soucek",
+      "country": "Czech Republic",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 7.11,
+      "aerialsWon": 0.7
+    },
+    {
+      "name": "Emerson",
+      "country": "Italy",
+      "position": "D(L),M(L)",
+      "GA": { "goals": 0, "assists": 3 },
+      "matchRating": 7.08,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Edson Álvarez",
+      "country": "Mexico",
+      "position": "D(C),DMC",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.84,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Vladimír Coufal",
+      "country": "Czech Republic",
+      "position": "D(R),M(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.81,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Saïd Benrahma",
+      "country": "Algeria",
+      "position": "AM(CLR)",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.80,
+      "aerialsWon": 2.5
+    },
+    {
+      "name": "Angelo Ogbonna",
+      "country": "Italy",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.55,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Nayef Aguerd",
+      "country": "Morocco",
+      "position": "D(C)",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.45,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Pablo Fornals",
+      "country": "Spain",
+      "position": "M(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.30,
+      "aerialsWon": 0.8
+    },
+    {
+      "name": "Danny Ings",
+      "country": "England",
+      "position": "AM(C),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.01,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Thilo Kehrer",
+      "country": "Germany",
+      "position": "D(CLR),M(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.01,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Maxwel Cornet",
+      "country": "Cote D’Ivoire",
+      "position": "D(L),M(LR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.00,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Mohammed Kudus",
+      "country": "Ghana",
+      "position": "M(CR),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.00,
+      "aerialsWon": 0
+    }
+  ]
+},
+      {
+  "_id": "team_id_wolves",
+  "name": "Wolverhampton Wanderers",
+  "players": [
+    {
+      "name": "José Sá",
+      "country": "Portugal",
+      "position": "GK",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 7.36,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Pedro Neto",
+      "country": "Portugal",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 0, "assists": 3 },
+      "matchRating": 7.36,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Matheus Cunha",
+      "country": "Brazil",
+      "position": "AM(CL),FW",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.89,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Mario Lemina",
+      "country": "Gabon",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.81,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Matheus Nunes",
+      "country": "Portugal",
+      "position": "M(CLR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.80,
+      "aerialsWon": 1
+    },
+    {
+      "name": "Craig Dawson",
+      "country": "England",
+      "position": "D(CR)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.76,
+      "aerialsWon": 3.5
+    },
+    {
+      "name": "Nélson Semedo",
+      "country": "Portugal",
+      "position": "D(LR),M(R)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.71,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Hwang Hee-Chan",
+      "country": "South Korea",
+      "position": "AM(CLR),FW",
+      "GA": { "goals": 2, "assists": 0 },
+      "matchRating": 6.69,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Maximilian Kilman",
+      "country": "England",
+      "position": "D(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.68,
+      "aerialsWon": 1.5
+    },
+    {
+      "name": "Pablo Sarabia",
+      "country": "Spain",
+      "position": "D(L),M(CLR),FW",
+      "GA": { "goals": 0, "assists": 1 },
+      "matchRating": 6.52,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Sasa Kalajdzic",
+      "country": "Austria",
+      "position": "FW",
+      "GA": { "goals": 1, "assists": 0 },
+      "matchRating": 6.51,
+      "aerialsWon": 0.7
+    },
+    {
+      "name": "Rayan Aït-Nouri",
+      "country": "Algeria",
+      "position": "D(L),M(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.46,
+      "aerialsWon": 1.5
+    },
+    {
+      "name": "João Gomes",
+      "country": "Brazil",
+      "position": "DMC",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.37,
+      "aerialsWon": 0.5
+    },
+    {
+      "name": "Hugo Bueno",
+      "country": "Spain",
+      "position": "D(L)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.30,
+      "aerialsWon": 0.3
+    },
+    {
+      "name": "Fábio Silva",
+      "country": "Portugal",
+      "position": "AM(L),FW",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.29,
+      "aerialsWon": 1.8
+    },
+    {
+      "name": "Toti Gomes",
+      "country": "Portugal",
+      "position": "D(CL)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 6.21,
+      "aerialsWon": 0
+    },
+    {
+      "name": "Boubacar Traoré",
+      "country": "Mali",
+      "position": "M(C)",
+      "GA": { "goals": 0, "assists": 0 },
+      "matchRating": 5.97,
+      "aerialsWon": 0
+    }
+  ]
+}
+
+
+    ]
+  }
+  

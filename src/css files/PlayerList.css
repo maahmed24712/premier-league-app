@@ -1,0 +1,43 @@
+/* Style the container that holds the input bar and table */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style the input bar */
+  .container input {
+    width: 88.5%;
+    padding: 8px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    font: inherit;
+  }
+  
+  /* Style the table */
+  .player-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  .player-table th,
+  .player-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .player-table th {
+    background-color: #f2f2f2;
+    color: #3d195b;
+  }
+  
+  /* Style table rows on hover */
+  .player-table tr:hover {
+    background-color: #f5f5f5;
+    color: black;
+  }
+  

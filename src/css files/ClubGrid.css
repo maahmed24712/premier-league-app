@@ -1,0 +1,24 @@
+/* ClubGrid.css */
+.club-grid {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid columns */
+    gap: 20px; /* Gap between grid items */
+  }
+  
+  .club-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    /* Add styling for club cards */
+  }
+  .club-card img {
+    max-width: 100px; /* Adjust as needed */
+    max-height: 100px; /* Adjust as needed */
+  }
+  .grid-button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
