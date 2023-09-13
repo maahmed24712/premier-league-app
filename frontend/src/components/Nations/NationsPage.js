@@ -9,7 +9,7 @@ function NationPage() {
   const nationName = decodeURIComponent(location.pathname.split('/').pop());
 
   useEffect(() => {
-    const apiUrl = `https://premier-league-six.vercel.app/api/players/country/${nationName}`;
+    const apiUrl = `'http://localhost:5000/api/players'`;
 
     const fetchData = async () => {
       try {
