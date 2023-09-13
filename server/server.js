@@ -7,10 +7,14 @@ const Teams = require('./models/Teams');
 const app = express();
 const port = process.env.PORT || 5000;
 
-app.use(cors());
+app.use(cors({
+  origin: [""],
+  methods: ["POST", "GET"],
+  credentials: true
+}));
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://127.0.0.1:27017/PremierLeaguePlayers', {
+mongoose.connect('mongodb+srv://mohamedaliahmed24:Because77@league.m7xrevt.mongodb.net/teams?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

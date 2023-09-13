@@ -16,7 +16,7 @@ function ClubPage() {
     console.log('Club Name:', clubName);
 
     // Define the URL for the API request, including the encoded clubName
-    const apiUrl = `http://127.0.0.1:5000/api/teams?club=${clubName}`;
+    const apiUrl = `https://premier-league-six.vercel.app/api/teams?club=${clubName}`;
     console.log('API URL:', apiUrl);
 
     // Create an asynchronous function to fetch data
