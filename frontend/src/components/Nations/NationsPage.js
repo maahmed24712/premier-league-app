@@ -7,9 +7,11 @@ function NationPage() {
   const location = useLocation();
   const [players, setPlayers] = useState([]);
   const nationName = decodeURIComponent(location.pathname.split('/').pop());
+  console.log('Nation Name:', nationName);
 
   useEffect(() => {
     const apiUrl = `https://premier-league-app-backend.onrender.com/api/players/country/${nationName}`;
+    console.log('API URL:', apiUrl);
   
     const fetchData = async () => {
       try {
