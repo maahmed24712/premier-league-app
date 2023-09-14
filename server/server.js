@@ -11,7 +11,11 @@ const port = process.env.PORT || 5000;
 app.use(cors()); // Invoke the cors middleware
 app.use(bodyParser.json());
 
+<<<<<<< HEAD
 mongoose.connect(process.env.MONGODB_URI, {
+=======
+mongoose.connect('mongodb://127.0.0.1:27017/PremierLeaguePlayers', {
+>>>>>>> 65ab716c45965cd5b23d33b9368a40131861aba8
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

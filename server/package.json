@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+<<<<<<< HEAD
     "start": "node server.js",
+=======
+    "start": "node server.js", 
+>>>>>>> 65ab716c45965cd5b23d33b9368a40131861aba8
     "dev": "nodemon server.js",
     "build": "npm i"
   },

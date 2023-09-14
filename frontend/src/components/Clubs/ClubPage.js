@@ -69,3 +69,4 @@ function ClubPage() {
 }
 
 export default ClubPage;
+
