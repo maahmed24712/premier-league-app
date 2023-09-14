@@ -8,7 +8,7 @@ function AllPlayersPage() {
 
   useEffect(() => {
     // Fetch all players from your API
-    Axios.get(`http://127.0.0.1:5000/api/players`)
+    Axios.get(`https://premier-league-app-backend.onrender.com/api/players`)
       .then((response) => {
         setPlayers(response.data);
       })
