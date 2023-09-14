@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const Teams = require('./models/Teams');
-require('dotenv').config();
+require('dotenv').config(); // Load environment variables from .env file
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -11,11 +11,7 @@ const port = process.env.PORT || 5000;
 app.use(cors()); // Invoke the cors middleware
 app.use(bodyParser.json());
 
-<<<<<<< HEAD
 mongoose.connect(process.env.MONGODB_URI, {
-=======
-mongoose.connect('mongodb://127.0.0.1:27017/PremierLeaguePlayers', {
->>>>>>> 65ab716c45965cd5b23d33b9368a40131861aba8
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -46,6 +42,7 @@ app.get('/api/teams', async (req, res) => {
     res.status(500).json({ error: 'Internal Server Error' });
   }
 });
+
 app.get('/api/players', async (req, res) => {
   try {
     const allPlayers = await Teams.aggregate([
@@ -109,4 +106,3 @@ app.get('/api/players/country/:country', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
-
