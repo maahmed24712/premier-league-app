@@ -9,7 +9,7 @@ function NationPage() {
   const nationName = decodeURIComponent(location.pathname.split('/').pop());
 
   useEffect(() => {
-    const apiUrl = `'http://localhost:5000/api/players'`;
+    const apiUrl = `http://127.0.0.1:5000/api/players/country/${nationName}`;
 
     const fetchData = async () => {
       try {
@@ -57,4 +57,5 @@ function NationPage() {
   );
 }
 
+export default NationPage;
 export default NationPage;
