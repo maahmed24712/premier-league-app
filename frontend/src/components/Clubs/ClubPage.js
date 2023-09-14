@@ -70,4 +70,3 @@ function ClubPage() {
 
 export default ClubPage;
 
-export default ClubPage;
