@@ -10,18 +10,21 @@ function NationPage() {
 
   useEffect(() => {
     const apiUrl = `https://premier-league-app-backend.onrender.com/api/players/country/${nationName}`;
-
+  
     const fetchData = async () => {
       try {
+        console.log(apiUrl); // Log the API URL for debugging
         const response = await Axios.get(apiUrl);
+        console.log(response.data); // Log the response data for debugging
         setPlayers(response.data);
       } catch (error) {
         console.error('Error fetching player data:', error);
       }
     };
-
+  
     fetchData();
   }, [nationName]);
+  
 
   return (
     <div className="club-page">
