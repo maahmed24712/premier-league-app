@@ -3,18 +3,15 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const Teams = require('./models/Teams');
+require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 5000;
 
-app.use(cors({
-  origin: [""],
-  methods: ["POST", "GET"],
-  credentials: true
-}));
+app.use(cors()); // Invoke the cors middleware
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://mohamedaliahmed24:Because77@league.m7xrevt.mongodb.net/teams?retryWrites=true&w=majority', {
+mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -31,6 +28,7 @@ app.get('/api/teams', async (req, res) => {
     console.log(club);
 
     const foundTeams = await Teams.find({ "teams.name": club });
+    console.log(foundTeams)
 
     if (foundTeams.length === 0) {
       return res.status(404).json({ error: 'Team not found' });
@@ -107,3 +105,4 @@ app.get('/api/players/country/:country', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+

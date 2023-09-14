@@ -8,7 +8,7 @@ function AllPlayersPage() {
 
   useEffect(() => {
     // Fetch all players from your API
-    Axios.get('http://localhost:5000/api/players')
+    Axios.get(`http://127.0.0.1:5000/api/players`)
       .then((response) => {
         setPlayers(response.data);
       })
