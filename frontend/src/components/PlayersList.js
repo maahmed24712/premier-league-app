@@ -62,8 +62,3 @@ function AllPlayersPage() {
 }
 
 export default AllPlayersPage;
-
-  );
-}
-
-export default AllPlayersPage;
