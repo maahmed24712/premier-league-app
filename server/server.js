@@ -2,107 +2,56 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const Teams = require('./models/Teams');
-require('dotenv').config(); // Load environment variables from .env file
+const Players = require('./models/Teams');
+require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
+const connect = process.env.MONGODB_URI;
 
-app.use(cors()); // Invoke the cors middleware
+app.use(cors());
 app.use(bodyParser.json());
+app.use(express.json());
 
-mongoose.connect(process.env.MONGODB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(connect, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log('MongoDB connected'))
+  .catch(err => console.log(err));
 
-const db = mongoose.connection;
-db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-db.once('open', () => {
-  console.log('Connected to MongoDB');
-});
-
-app.get('/api/teams', async (req, res) => {
+app.get('/final', async (req, res) => {
   try {
-    const { club } = req.query;
-    console.log(club);
-
-    const foundTeams = await Teams.find({ "teams.name": club });
-    console.log(foundTeams)
-
-    if (foundTeams.length === 0) {
-      return res.status(404).json({ error: 'Team not found' });
-    }
-
-    const players = foundTeams[0].teams.find((team) => team.name === club).players;
-
+    const teams = await Players.find();
+    res.json(teams);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+});
+app.get('/api/players/country/:nation', async (req, res) => {
+  try {
+    const { nation } = req.params;
+    const players = await Players.aggregate([
+      { $unwind: "$players" },
+      { $match: { "players.country": nation } }
+    ]);
     res.json(players);
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: 'Internal Server Error' });
+  } catch (err) {
+    console.error('Error fetching players:', err);
+    res.status(500).json({ message: 'Error fetching players' });
   }
 });
-
-app.get('/api/players', async (req, res) => {
+app.get('/api/players/club/:clubName', async (req, res) => {
   try {
-    const allPlayers = await Teams.aggregate([
-      { $unwind: "$teams" },
-      { $unwind: "$teams.players" },
-      {
-        $project: {
-          _id: 0,
-          name: "$teams.players.name",
-          country: "$teams.players.country",
-          position: "$teams.players.position",
-          goals: "$teams.players.GA.goals",
-          assists: "$teams.players.GA.assists",
-          matchRating: "$teams.players.matchRating",
-          aerialsWon: "$teams.players.aerialsWon"
-        }
-      }
+    const { clubName } = req.params;
+    const players = await Players.aggregate([
+      { $unwind: "$players" },
+      { $match: { name: clubName } },
+      { $project: { "players.name": 1, "players.country": 1, "players.position": 1, "players.GA.goals": 1, "players.GA.assists": 1, "players.aerialsWon": 1, "players.matchRating": 1, _id: 0 } }
     ]);
-
-    res.json(allPlayers);
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: 'Internal Server Error' });
+    res.json(players);
+  } catch (err) {
+    console.error('Error fetching players:', err);
+    res.status(500).json({ message: 'Error fetching players' });
   }
 });
 
-app.get('/api/players/country/:country', async (req, res) => {
-  const { country } = req.params;
+app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
 
-  try {
-    const playersByCountry = await Teams.aggregate([
-      { $unwind: "$teams" },
-      { $unwind: "$teams.players" },
-      {
-        $match: {
-          "teams.players.country": country,
-        },
-      },
-      {
-        $project: {
-          _id: 0,
-          name: "$teams.players.name",
-          country: "$teams.players.country",
-          team: "$teams.name",
-          position: "$teams.players.position",
-          goals: "$teams.players.GA.goals",
-          assists: "$teams.players.GA.assists",
-          matchRating: "$teams.players.matchRating",
-          aerialsWon: "$teams.players.aerialsWon",
-        },
-      },
-    ]);
-
-    res.json(playersByCountry);
-  } catch (error) {
-    console.error('Error fetching players by country:', error);
-    res.status(500).json({ error: 'Internal server error' });
-  }
-});
-
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});

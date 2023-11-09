@@ -14,7 +14,6 @@ function NationsGrid({ nations }) {
           </button>
         </Link>
         <h3>{nation.name}</h3>
-        {/* Add additional club information here */}
         </div>    
       ))}
     </div>

@@ -5,20 +5,20 @@ import '../../css files/ClubPage.css';
 
 function NationPage() {
   const location = useLocation();
-  const [players, setPlayers] = useState([]);
+  const [teams, setTeams] = useState([]);
   const nationName = decodeURIComponent(location.pathname.split('/').pop());
   console.log('Nation Name:', nationName);
 
   useEffect(() => {
-    const apiUrl = `https://premier-league-app-backend.onrender.com/api/players/country/${nationName}`;
+    const apiUrl = `http://localhost:5000/api/players/country/${nationName}`;
     console.log('API URL:', apiUrl);
   
     const fetchData = async () => {
       try {
         console.log(apiUrl); // Log the API URL for debugging
         const response = await Axios.get(apiUrl);
-        console.log(response.data); // Log the response data for debugging
-        setPlayers(response.data);
+        console.log(response.data);
+        setTeams(response.data);
       } catch (error) {
         console.error('Error fetching player data:', error);
       }
@@ -36,7 +36,7 @@ function NationPage() {
         <thead>
           <tr>
             <th>Name</th>
-            <th>Team</th>
+            <th>Country</th>
             <th>Position</th>
             <th>Goals</th>
             <th>Assists</th>
@@ -45,15 +45,16 @@ function NationPage() {
           </tr>
         </thead>
         <tbody>
-          {players.map((player) => (
-            <tr key={player.name}>
-              <td>{player.name}</td>
-              <td>{player.team}</td>
-              <td>{player.position}</td>
-              <td>{player.goals}</td>
-              <td>{player.assists}</td>
-              <td>{player.aerialsWon}</td>
-              <td>{player.matchRating}</td>
+          {teams.map((player) => (
+            <tr key={player}>
+              {console.log(player)}
+              <td>{player.players.name}</td>
+              <td>{player.players.country}</td>
+              <td>{player.players.position}</td>
+              <td>{player.players.GA.goals}</td>
+              <td>{player.players.GA.assists}</td>
+              <td>{player.players.aerialsWon}</td>
+              <td>{player.players.matchRating}</td>
             </tr>
           ))}
         </tbody>
@@ -63,4 +64,3 @@ function NationPage() {
 }
 
 export default NationPage;
-

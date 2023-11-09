@@ -7,14 +7,11 @@ function AllPlayersPage() {
   const [searchPlayer, setSearchPlayer] = useState('');
 
   useEffect(() => {
-    // Fetch all players from your API
-    Axios.get(`https://premier-league-app-backend.onrender.com/api/players`)
-      .then((response) => {
+    Axios.get('http://localhost:5000/final')
+      .then(response => {
         setPlayers(response.data);
       })
-      .catch((error) => {
-        console.error('Error fetching player data:', error);
-      });
+      .catch(err => console.log(err));
   }, []);
 
   return (
@@ -39,26 +36,31 @@ function AllPlayersPage() {
           </tr>
         </thead>
         <tbody>
-          {players
-            .filter((player) =>
-              searchPlayer.toLowerCase() !== '' &&
-              player.name.toLowerCase().includes(searchPlayer.toLowerCase())
-            )
-            .map((player) => (
-              <tr key={player._id}>
-                <td>{player.name}</td>
-                <td>{player.country}</td>
-                <td>{player.position}</td>
-                <td>{player.goals}</td>
-                <td>{player.assists}</td>
-                <td>{player.aerialsWon}</td>
-                <td>{player.matchRating}</td>
-              </tr>
-            ))}
-        </tbody>
+  {players.map((team, index) => (
+    <React.Fragment key={index}>
+      {team.players
+        .filter(player =>
+          player.name.toLowerCase().includes(searchPlayer.toLowerCase())
+        )
+        .map((player, idx) => (
+          <tr key={idx}>
+            <td>{player.name}</td>
+            <td>{player.country}</td>
+            <td>{player.position}</td>
+            <td>{player.GA.goals}</td>
+            <td>{player.GA.assists}</td>
+            <td>{player.aerialsWon}</td>
+            <td>{player.matchRating}</td>
+          </tr>
+        ))}
+    </React.Fragment>
+  ))}
+</tbody>
       </table>
     </div>
   );
 }
 
 export default AllPlayersPage;
+
+

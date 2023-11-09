@@ -4,35 +4,25 @@ import Axios from 'axios';
 import '../../css files/ClubPage.css'
 
 function ClubPage() {
-  // Using useLocation to get the pathname
   const location = useLocation(); // Access the location object
-
-  // Create a state variable to hold the player data and initialize it as an empty array.
-  const [players, setPlayers] = useState([]);
+  const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    // Extracting the clubName from the pathname and URL-encoding it
     const clubName = decodeURIComponent(location.pathname.split('/').pop());
     console.log('Club Name:', clubName);
-
-    // Define the URL for the API request, including the encoded clubName
-    const apiUrl = `https://premier-league-app-backend.onrender.com/api/teams?club=${clubName}`;
+    const apiUrl = `http://localhost:5000/api/players/club/${clubName}`;
     console.log('API URL:', apiUrl);
 
-    // Create an asynchronous function to fetch data
     const fetchData = async () => {
       try {
         const response = await Axios.get(apiUrl);
-        // Set the player data in the state when the response is received
-        setPlayers(response.data);
+        setTeams(response.data);
       } catch (error) {
         console.error('Error fetching player data:', error);
       }
     };
-
-    // Call the asynchronous function to fetch data
     fetchData();
-  }, [location.pathname]); // Include location.pathname as a dependency
+  }, [location.pathname]);
 
   return (
     <div className="club-page">
@@ -51,15 +41,16 @@ function ClubPage() {
           </tr>
         </thead>
         <tbody>
-          {players.map((player) => (
-            <tr key={player._id}>
-              <td>{player.name}</td>
-              <td>{player.country}</td>
-              <td>{player.position}</td>
-              <td>{player.GA.goals}</td>
-              <td>{player.GA.assists}</td>
-              <td>{player.aerialsWon}</td>
-              <td>{player.matchRating}</td>
+          {teams.map((player) => (
+            <tr key={player}>
+              {console.log(player)}
+              <td>{player.players.name}</td>
+              <td>{player.players.country}</td>
+              <td>{player.players.position}</td>
+              <td>{player.players.GA.goals}</td>
+              <td>{player.players.GA.assists}</td>
+              <td>{player.players.aerialsWon}</td>
+              <td>{player.players.matchRating}</td>
             </tr>
           ))}
         </tbody>
@@ -67,6 +58,5 @@ function ClubPage() {
     </div>
   );
 }
-
 export default ClubPage;
 
