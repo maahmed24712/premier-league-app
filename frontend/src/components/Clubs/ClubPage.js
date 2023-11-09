@@ -10,7 +10,7 @@ function ClubPage() {
   useEffect(() => {
     const clubName = decodeURIComponent(location.pathname.split('/').pop());
     console.log('Club Name:', clubName);
-    const apiUrl = `http://localhost:5000/api/players/club/${clubName}`;
+    const apiUrl = `https://premier-league-app-backend.onrender.com/${clubName}`;
     console.log('API URL:', apiUrl);
 
     const fetchData = async () => {

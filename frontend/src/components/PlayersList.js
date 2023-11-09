@@ -7,7 +7,7 @@ function AllPlayersPage() {
   const [searchPlayer, setSearchPlayer] = useState('');
 
   useEffect(() => {
-    Axios.get('http://localhost:5000/final')
+    Axios.get('https://premier-league-app-backend.onrender.com/final')
       .then(response => {
         setPlayers(response.data);
       })

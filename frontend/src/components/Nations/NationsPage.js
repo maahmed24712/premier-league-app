@@ -10,7 +10,7 @@ function NationPage() {
   console.log('Nation Name:', nationName);
 
   useEffect(() => {
-    const apiUrl = `http://localhost:5000/api/players/country/${nationName}`;
+    const apiUrl = `https://premier-league-app-backend.onrender.com/${nationName}`;
     console.log('API URL:', apiUrl);
   
     const fetchData = async () => {
